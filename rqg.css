@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+}
+main{
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+}
+#btn{
+    background-color: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .6);
+}
+#btn:hover{
+    background-color: rgba(255, 255, 255, .6);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+}
